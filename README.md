@@ -38,18 +38,18 @@ You can run cli app with -h or --help flag to see all commands and their descrip
 Usage:
 
 - add
--- command is used to adding new url to database
-First method:
-program will ask user if he want custom url or random one
-Example:
-url-shortener add http://example.com
-Second method:
-Flags:
--r, --random: for random shortened url
--c, --custom [value]: for value given by user
-Example:
-url-shortener add http://example.com -c xyz123
-url-shortener add http://example1.com --random
+   command is used to adding new url to database
+  First method:
+  program will ask user if he want custom url or random one
+  Example:
+  url-shortener add http://example.com
+  Second method:
+  Flags:
+  -r, --random: for random shortened url
+  -c, --custom [value]: for value given by user
+  Example:
+  url-shortener add http://example.com -c xyz123
+  url-shortener add http://example1.com --random
 - list
 command shows all created urls
 Example:
