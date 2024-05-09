@@ -37,7 +37,7 @@ Written in cobra. There is 4 commands: add, update, delete, list.
 You can run cli app with -h or --help flag to see all commands and their description
 Usage:
 
--add
+- add
 "add" command is used to adding new url to database
 First method:
 program will ask user if he want custom url or random one
@@ -50,17 +50,17 @@ Flags:
 Example:
 url-shortener add http://example.com -c xyz123
 url-shortener add http://example1.com --random
--list
+- list
 "list" command shows all created urls
 Example:
 url-shortener list
--delete
+- delete
 "delete" command deletes url from database, user type shortened url to specify which one is gonna be deleted.
 User can give more than one shortened url with spaces
 Example:
 url-shortener delete xyz123
 url-shortener delete xyz123 example
--update
+- update
 "update" command updates already created url, user need to type shortened url which one is gonna be updated.
 At least 1 flag is required.
 Flags:
