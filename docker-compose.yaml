@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  api:
+    image: url-api
+    ports:
+      - "9000:9000" # running api port PORT:PORT
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017" # default mongodb port
+    volumes:
+      - mongodbdata:/data/db
+
+volumes:
+  mongodbdata:
