@@ -38,7 +38,7 @@ You can run cli app with -h or --help flag to see all commands and their descrip
 Usage:
 
 - add
-command is used to adding new url to database
+-- command is used to adding new url to database
 First method:
 program will ask user if he want custom url or random one
 Example:
