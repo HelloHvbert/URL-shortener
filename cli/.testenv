@@ -1,0 +1,5 @@
+API_PORT=9000
+
+SHORT_URL_MAX_LEN=6
+
+DB_URI=mongodb://localhost:27017/
